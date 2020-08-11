@@ -27,7 +27,7 @@ public class MainStudent {
 //        System.out.println("--------更改学生---------");
 //        studentDao.update(s);
 
-
+        System.out.println("hahaha ");
 
 
     }
