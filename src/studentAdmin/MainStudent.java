@@ -28,6 +28,7 @@ public class MainStudent {
 //        studentDao.update(s);
 
         System.out.println("hahaha ");
+        System.out.println("哈哈哈哈哈");
 
 
     }
