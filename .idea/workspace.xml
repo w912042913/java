@@ -48,13 +48,6 @@
     <key name="CreateTestDialog.RecentsKey">
       <recent name="day15.myGeneric" />
     </key>
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="day13" />
-      <recent name="day08" />
-    </key>
-    <key name="CreateTestDialog.Recents.Supers">
-      <recent name="" />
-    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="jdbc.JDBCstudent.utils" />
       <recent name="day09" />
@@ -65,6 +58,13 @@
       <recent name="D:\IDEAWANG\project.0722\src\jdbc\empselectDemo" />
       <recent name="D:\IDEAWANG\project.0722\src\jdbc\utils" />
       <recent name="D:\IDEAWANG\project.0722\src" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="day13" />
+      <recent name="day08" />
     </key>
   </component>
   <component name="RunManager" selected="Application.MainStudent (1)">
@@ -217,6 +217,7 @@
       <workItem from="1597142929959" duration="630000" />
       <workItem from="1597150513919" duration="58000" />
       <workItem from="1597153280821" duration="147000" />
+      <workItem from="1597155085210" duration="237000" />
     </task>
     <servers />
   </component>

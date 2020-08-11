@@ -29,6 +29,7 @@ public class MainStudent {
 
         System.out.println("hahaha ");
         System.out.println("ssss");
+        System.out.println("sasa");
 
 
     }
