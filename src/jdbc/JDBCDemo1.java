@@ -25,5 +25,7 @@ public class JDBCDemo1 {
 //        8、释放资源
         stmt.close();
         conn.close();
+        //配置druid连接池需要的步骤 设置驱动名，设置地址 设置用户名 密码 初始化连接数
+          //1. 导入jar包 2 注册驱动 3连接数据库 4 定义sql 5 获取sql元素 6 执行sql 7 处理结果 8 释放资源
     }
 }

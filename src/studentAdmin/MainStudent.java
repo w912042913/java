@@ -5,10 +5,7 @@ import studentAdmin.domain.Student;
 
 import java.util.List;
 
-/**
- * @author Eric Lee
- * @date 2020/8/6 15:47
- */
+
 public class MainStudent {
     public static void main(String[] args) {
         System.out.println("-------- 欢迎登录low版学生管理系统---------");
@@ -27,9 +24,7 @@ public class MainStudent {
 //        System.out.println("--------更改学生---------");
 //        studentDao.update(s);
 
-        System.out.println("hahaha ");
-        System.out.println("ssss");
-        System.out.println("sasa");
+
 
 
     }

@@ -10,18 +10,9 @@ import java.sql.SQLException;
 import java.sql.Statement;
 import java.util.Properties;
 
-/**
- * @author Eric Lee
- * @date 2020/8/6 09:54
- */
 public class JDBCUtils {
     private static DataSource ds;
 
-    //    private static DataSource ds;
-    static{
-
-    }
-// 静态代码块
     static {
         Properties properties = new Properties();
         try {
@@ -37,12 +28,11 @@ public class JDBCUtils {
     }
 
     // 连接
-    public static Connection getConnection() throws SQLException {
+    public  static Connection getConnection() throws SQLException {
         return ds.getConnection();
     }
-
     // close
-    public static void close(Statement stmt, Connection conn, ResultSet rs) {
+    public static void close(ResultSet rs, Statement stmt, Connection conn){
 
         if (stmt != null) {
             try {
@@ -70,9 +60,9 @@ public class JDBCUtils {
 
     }
 
-    public static void close(Statement stmt, Connection conn) {
+    public static void close(Statement stmt, Connection conn){
 
-        close(stmt, conn, null);
+        close(null, stmt, conn);
 
     }
 
@@ -83,5 +73,3 @@ public class JDBCUtils {
         return ds;
     }
 }
-
-

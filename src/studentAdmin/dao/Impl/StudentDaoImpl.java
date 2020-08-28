@@ -20,7 +20,7 @@ public class StudentDaoImpl  implements StudentDao {
         try {
             //连接
             conn = JDBCUtils.getConnection();
-            String sql = "select *from studentmanage; ";
+            String sql = "select *  from studentmanage; ";
             //查询
             pstmt = conn.prepareStatement(sql);
             //得到结果
@@ -50,8 +50,6 @@ public class StudentDaoImpl  implements StudentDao {
         }
         return list;
     }
-
-
     @Override
     public void remove(Integer id) {
         Connection conn = null;
@@ -120,8 +118,6 @@ public class StudentDaoImpl  implements StudentDao {
             //得到结果
             int count = pstmt.executeUpdate();
             System.out.println(count);
-
-
         } catch (SQLException e) {
             e.printStackTrace();
         } finally {
